@@ -11,6 +11,14 @@ CONF_CHAT_MODEL = "chat_model"
 CONF_MAX_TOKENS = "max_tokens"
 CONF_TOP_P = "top_p"
 CONF_TEMPERATURE = "temperature"
+CONF_REASONING_EFFORT = "reasoning_effort"
+CONF_WEB_SEARCH = "web_search"
+CONF_WEB_SEARCH_CITY = "web_search_city"
+CONF_WEB_SEARCH_CONTEXT_SIZE = "web_search_context_size"
+CONF_WEB_SEARCH_COUNTRY = "web_search_country"
+CONF_WEB_SEARCH_REGION = "web_search_region"
+CONF_WEB_SEARCH_TIMEZONE = "web_search_timezone"
+CONF_WEB_SEARCH_USER_LOCATION = "web_search_user_location"
 # Custom configuration entries
 CONF_API_BASE = "api_base"
 CONF_API_VERSION = "api_version"
@@ -19,6 +27,8 @@ RECOMMENDED_CHAT_MODEL = "gpt-4o-mini"
 RECOMMENDED_MAX_TOKENS = 150
 RECOMMENDED_TOP_P = 1.0
 RECOMMENDED_TEMPERATURE = 1.0
+RECOMMENDED_REASONING_EFFORT = "medium"
+RECOMMENDED_WEB_SEARCH_CONTEXT_SIZE = 5000
 
 DEFAULT_CHAT_MODEL = "gpt-3.5-turbo"
 DEFAULT_TOP_P = 1
